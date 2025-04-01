@@ -33,7 +33,7 @@ app.add_middleware(
 from fastapi.responses import PlainTextResponse
 
 
-@app.get("/api/outline", response_class=PlainTextResponse)
+@app.get("/", response_class=PlainTextResponse)
 async def generate_markdown_outline(country: str = Query(..., title="Country")):
     # Fetch Wikipedia page for the country
     print("Request received for: {country}")
