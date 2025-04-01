@@ -1,2 +1,2 @@
-# tdsP2_country_outline
-Country outline from wiki in markdown format
+# tdsP2_endpoint
+Endpoint for TDS Project 2 on Vercel
